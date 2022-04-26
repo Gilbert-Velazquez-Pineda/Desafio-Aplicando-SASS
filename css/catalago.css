@@ -1,0 +1,41 @@
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+    
+}
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img{
+    width: 100%;
+    height: 300px;
+}
+
+#galeria img:hover {
+    border: 10px solid black;
+}
+
+
+
+.objeto {
+    position: relative;
+    
+}
+
+.objeto p {
+    position: absolute;
+    bottom: 30px;
+    color: black;
+    background: linear-gradient(rgba(255,255,255,0.5));
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
