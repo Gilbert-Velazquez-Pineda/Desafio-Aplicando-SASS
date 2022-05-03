@@ -342,6 +342,7 @@
 /* seccion nosotros */
 .caja {
     display: flex;
+    color: #000;
     background-color: white;  
 }
 
@@ -351,6 +352,7 @@
 }
 
 .vision-mision {
+    color: black;
     width: 50%;
     padding: 10px;
     background-color: white;
@@ -358,11 +360,13 @@
 }
 
 #parrafo {
+    color: black;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .ubicacion {
+    color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
