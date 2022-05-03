@@ -1,0 +1,35 @@
+.navegador {    
+    background-color: white;
+    color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px
+}
+
+.nav-lista{
+    list-style-type: none;
+}
+
+.nav-lista  .lista-icono {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.navegador a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+.navegador a:hover {
+    color: black;
+    
+}
+
+
+.logo {
+    height: 90px;
+    
+}

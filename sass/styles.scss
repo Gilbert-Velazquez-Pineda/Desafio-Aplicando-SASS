@@ -1,47 +1,7 @@
-html{
-    box-sizing: border-box; 
-}
-
-body {
-    padding: 0;
-    margin: 0;
-    background-color: rgb(5, 5, 5);
-}
-
-.navegador {    
-    background-color: white;
-    color: darkblue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 20px
-}
-
-.nav-lista{
-    list-style-type: none;
-}
-
-.nav-lista  .lista-icono {
-    display: inline-block;
-    padding: 10px 10px;
-}
-
-.navegador a {
-    color: blue;
-    text-decoration: none;
-
-}
-
-.navegador a:hover {
-    color: black;
-    
-}
-
-.logo {
-    height: 90px;
-    
-}
+@import "general";
+@import "navegador";
+@import "fuentes";
+@import "footer";
 
 .bienvenida {
     margin: 2rem;
@@ -147,19 +107,6 @@ body {
     height: 40vw;  
 }
 
-.titulo1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    text-align:center;
-    color: white;
-    
-}
-
-.titulo2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    color: white;
-}
 
 .social-bar {
 	position: fixed;
@@ -216,10 +163,6 @@ body {
 	padding-right: 3rem;
 	border-radius: 1rem 0 0 1rem;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
-}
-
-h4 {
-    font-size: 30px;
 }
 
 .ropa-nueva {
@@ -314,24 +257,12 @@ h4 {
     
 }
 
-#pie {
-    text-decoration: none;
-    color: white;
-}
-
-#pie:hover {
-    color: black;
-}
-
 /* MODIFICACIONES A BOOTSTRAP */
 #carouselExampleDark {
     max-width: 20%;
     margin: auto;
     margin-bottom: 50px;
-
 }
 
-.blanco {
-    color: white;
-}
+
 
