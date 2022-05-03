@@ -3,7 +3,6 @@
     font-size: 40px;
     text-align:center;
     color: white;
-    
 }
 
 .titulo2 {
@@ -33,4 +32,13 @@ h4 {
 ul {
     list-style: none;
     padding: 0;
+}
+
+.titulo-ubicacion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;  
 }

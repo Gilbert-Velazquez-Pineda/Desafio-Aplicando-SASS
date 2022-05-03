@@ -135,6 +135,20 @@ ul {
   padding: 0;
 }
 
+.titulo-ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+}
+
 #pie {
   text-decoration: none;
   color: white;
@@ -539,5 +553,43 @@ ul {
 .contact-info h4, .contact-info ul, .contact-info p {
   text-align: center;
   margin: 0 0 1rem 0;
+}
+
+/* seccion nosotros */
+.caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+}
+
+.caja div {
+  width: 50%;
+  padding: 10px;
+}
+
+.vision-mision {
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#parrafo {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  background-color: white;
 }
 /*# sourceMappingURL=styles.css.map */
