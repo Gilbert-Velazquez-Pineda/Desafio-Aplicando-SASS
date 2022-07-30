@@ -78,6 +78,7 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
   updateShoppingCartTotal();
 }
 
+
 function updateShoppingCartTotal() {
   let total = 0;
   const shoppingCartTotal = document.querySelector('.shoppingCartTotal');
