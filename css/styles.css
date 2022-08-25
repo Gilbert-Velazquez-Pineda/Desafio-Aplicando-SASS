@@ -593,3 +593,20 @@ h4 {
   background-color: white;
 }
 /*# sourceMappingURL=styles.css.map */
+
+.color-descripcion {
+  color: #000;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 300px;
+}
+
+.compra {
+  background-color: whitesmoke;
+}
+
+.letra-negra {
+  color: black;
+}
